@@ -6,17 +6,16 @@ const ExerciseSearch = ({ onSearch }) => {
   const handleSearchChange = (event) => {
     const query = event.target.value;
     setSearchQuery(query);
-    // Pass the search query to the parent component (e.g., App) as the user types
     onSearch(query);
   };
 
   return (
-    <div>
+    <div className='searchBarDiv'>
       <input
         type="text"
         placeholder="Search by target, body part, or exercise"
         value={searchQuery}
-        onChange={handleSearchChange} // Trigger search as the user types
+        onChange={handleSearchChange}
       />
     </div>
   );

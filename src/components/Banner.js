@@ -15,27 +15,27 @@ const Banner = () => {
           <div className='container2'>
                 <div className='cont2_1'>
                   <div>
-                      <div>
+                      <div className='smallImage'>
                         <img src='https://www.pixelstalk.net/wp-content/uploads/images6/Fitness-Desktop-Wallpaper.jpg' />
                       </div>
-                      <div>
-                        <img src='https://cutewallpaper.org/22/gym-lover-wallpapers/6000-c1f9d-best-3cce6-gym-d37e7-photos-249ba-%C2%B7-29648-100-5256b-free-b647c-download-844b8-%C2%B7---pexels---stock---photos.jpeg' />
+                      <div className='smallImage'>
+                        <img src='https://t4.ftcdn.net/jpg/02/70/27/57/360_F_270275705_Ja0uASDTp5tCasU2amYLOMvUBT0Qv7m5.jpg' />
                       </div>
                   </div>
-                  <div>
+                  <div className='largeImage'>
                       <img src='https://i.ytimg.com/vi/gey73xiS8F4/maxresdefault.jpg' />
                   </div>
                 </div>
                 <div className='cont2_2'>
-                  <div>
+                  <div className='largeImage'>
                   <img  src="https://wallpaperaccess.com/full/1087621.jpg"/>
                   </div>
-                  <div>
-                      <div>
+                  <div className='cont2lowerbox'>
+                      <div className='smallImage'>
                         <img src="https://wallpapercave.com/wp/wp6331008.jpg"/>
                       </div>
-                      <div>
-                        <img src="https://img.freepik.com/premium-photo/woman-training-gym_946657-755.jpg"/>
+                      <div className='smallImage'>
+                        <img src="https://img.freepik.com/free-photo/woman-holding-weights-near-barbells_651396-1617.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1701648000&semt=ais"/>
                       </div>
                   </div>
                 </div>

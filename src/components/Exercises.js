@@ -5,7 +5,7 @@ import ExerciseSearch from './ExerciseSearch';
 const Exercise = () => {
     const [exercises, setExercises] = useState([]);
     const [cards, setCards] = useState(10);
-    const [searchInput, setSearchInput] = useState(''); // State for the search query
+    const [searchInput, setSearchInput] = useState('');
     const [searchResults, setSearchResults] = useState([]);
 
   useEffect(() => {
@@ -32,14 +32,14 @@ const Exercise = () => {
   }, []);
 
   const loadMoreCards = () => {
-    setCards(cards + 10); // Increase the number of cards to display
+    setCards(cards + 10); 
   };
 
   const handleSearch = (query) => {
-    setSearchInput(query); // Update the search query state
+    setSearchInput(query);
   };
 
-  // Filter exercises based on the search query
+  
   useEffect(() => {
     const filteredResults = exercises.filter((exercise) =>
       exercise.target.toLowerCase().includes(searchInput.toLowerCase()) ||
